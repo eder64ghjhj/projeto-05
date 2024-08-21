@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+article{
+    border:2px solid #ccc;
+    margin: 10px;
+    padding:13px ;
+    width: 80%;
+}
